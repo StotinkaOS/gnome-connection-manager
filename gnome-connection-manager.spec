@@ -5,7 +5,8 @@ Release:	5%{?dist}.sos
 License:	GPLv3 and MIT
 URL:		http://kuthulu.com/gcm/
 
-Source0:	http://kuthulu.com/gcm/%{name}_%{version}_all.tgz
+#Source0:	http://kuthulu.com/gcm/%{name}_%{version}_all.tgz
+Source0:        %{name}_%{version}_all.tgz
 Source1:	LICENSES
 Source2:	%{name}.desktop
 Source3:	%{name}.sh
